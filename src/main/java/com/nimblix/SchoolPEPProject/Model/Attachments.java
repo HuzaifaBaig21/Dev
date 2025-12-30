@@ -25,7 +25,7 @@ public class Attachments {
 
     @ManyToOne
     @JoinColumn(name = "assignment_id")
-    private Assignments assignments;
+    private Assignments assignment;
 
     @Column(name = "created_time")
     private String createdTime;
